@@ -47,3 +47,20 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #555;
 }
+
+#aboutMe {
+    margin-top: 80px; /* Adjust the margin to create space below the navbar */
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#aboutMe {
+    font-size: 24px;
+    color: #333;
+}
+
+#aboutMe {
+    font-size: 16px;
+    color: #555;
+}
