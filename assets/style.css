@@ -103,6 +103,16 @@ section {
     
 }
 
+.project.featured-project {
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Or any other height */
+    display: flex;
+    align-items: center; /* To vertically center the content */
+    justify-content: center; /* To horizontally center the content */
+    color: white; /* If needed for better readability */
+}
+
 .project {
     background-color: #ffffff;
     padding: 20px;
