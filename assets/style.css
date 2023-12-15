@@ -151,7 +151,26 @@ section {
     background-color: #fff;
     padding: 5px;
 }
+.project-1 {
+    border: 2px solid #1abc9c;
+    padding: 25px; 
+    margin-bottom: 40px; 
+    background-color: #f0f0f0;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
 
+.project-1 img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.project-1 h2 {
+    font-size: 1.8rem;
+    color: #2c3e50; 
+}
 
 #description {
     color: #444;
