@@ -103,15 +103,6 @@ section {
     
 }
 
-.project.featured-project {
-    background-size: cover;
-    background-position: center;
-    height: 300px; /* Or any other height */
-    display: flex;
-    align-items: center; /* To vertically center the content */
-    justify-content: center; /* To horizontally center the content */
-    color: white; /* If needed for better readability */
-}
 
 .project {
     background-color: #ffffff;
@@ -148,7 +139,14 @@ section {
     text-align: justify;
 }
 
-#description, #usage {
+.project img {
+    max-width: 100%; /* Ensures image is not larger than its container */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 5px; /* Optional, for rounded corners */
+    margin-top: 10px; /* Space above the image */
+}
+
+#description {
     color: #444;
     font-size: 1rem;
     line-height: 1.6;
@@ -158,13 +156,6 @@ section {
 
 #description {
     font-weight: bold;
-}
-
-#usage {
-    background-color: #f8f8f8;
-    padding: 10px;
-    border-left: 5px solid #2c3e50;
-    border-radius: 5px;
 }
 
 footer {
