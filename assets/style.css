@@ -140,11 +140,18 @@ section {
 }
 
 .project img {
-    max-width: 100%; /* Ensures image is not larger than its container */
-    height: auto; /* Maintains aspect ratio */
-    border-radius: 5px; /* Optional, for rounded corners */
-    margin-top: 10px; /* Space above the image */
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    padding: 5px;
 }
+
 
 #description {
     color: #444;
