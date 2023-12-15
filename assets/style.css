@@ -91,6 +91,16 @@ section {
 #work {
     background-color: #ecf0f1;
     text-align: center;
+    padding: 40px 20px;
+    margin-top: 20px;
+}
+
+#project-title {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    
 }
 
 .project {
